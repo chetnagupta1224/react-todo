@@ -1,0 +1,14 @@
+.square{
+    
+    height: 50px;
+    width: 50px;
+    background-color: rgb(181, 212, 214);
+    border-color: rgb(155, 144, 122);
+    border-style: solid;
+    border-radius: 5px;
+    
+}
+.square:active {
+    transform: translateY(5px); /* This could cause the tile to move when clicked */
+  }
+  
